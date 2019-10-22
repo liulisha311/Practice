@@ -3,7 +3,7 @@ import math
 a = int(input("enter value of a:"))
 b = int(input("enter value of b:"))
 c = int(input("enter value of c:"))
-d = b * b -4 * a * c
+d = b * b -4 * a * c #公式爲：x=[-b±?(b^2-4ac)]/2a
 if d < 0:
     print("roots are imaginary")
 else:
